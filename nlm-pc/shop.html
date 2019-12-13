@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>产品展示列表</title>
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/shop.css">
+    <link rel="stylesheet" href="lib/mCustomScrollbar/jquery.mCustomScrollbar.css">
+</head>
+
+<body>
+    <div class="srcoll">
+    <!-- nav -->
+    <div class="container-fluid hand-nav">
+        <div class="row">
+            <div class="col-sm-5">
+                <div class="logo">
+                    <img src="images/logo.png" alt="" class="center-block ">
+                </div>
+            </div>
+            <div class="col-sm-7">
+                <div class="col-sm-12 text-right ">
+                    <a href="" class="weibo">
+                        <img src="images/weibo.png" alt="">
+                        诺丽美微博
+                    </a>
+                </div>
+                <div class="col-sm-12 nav-con">
+                    <a href="">首页</a>
+                    <a href="">关于诺丽美</a>
+                    <a href="">最新动态</a>
+                    <a href="" class="nav-active">产品展示</a>
+                    <a href="">专业课堂</a>
+                    <form action="https://www.baidu.com/s?" method="GET" class="search">
+                        <div>
+                            <input type="text" name="word" placeholder="做女人要更美" required>
+                            <button class="glyphicon glyphicon-search"></button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- banner -->
+    <div class="container-fluid banner">
+    </div>
+
+    <!-- list -->
+    <div class="container list">
+        <div class="row">
+            <div class="col-sm-11 col-sm-offset-1">
+                <span style="float: left;">筛选:</span>
+                <div class=" list-select">
+                    <a href="" class="list-select-active">清痘系列</a>
+                    <a href="">淡斑系列</a>
+                    <a href="">补水系列</a>
+                    <a href="">通用系列</a>
+                    <a href="">优惠套餐</a>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="margin-top:60px ;">
+            <div class="col-sm-2 col-sm-offset-2">
+                <a href="javascript:;"> <img src="images/shop-items (1).png" alt="" class="img-responsive"></a>
+                <p class="text-center">清痘调理液</p>
+            </div>
+            <div class="col-sm-2">
+                <a href="javascript:;"> <img src="images/shop-items (2).png" alt="" class="img-responsive"></a>
+                <p class="text-center">清痘焕颜霜（至尊三合)</p>
+            </div>
+            <div class="col-sm-2">
+                <a href="javascript:;"> <img src="images/shop-items (3).png" alt="" class="img-responsive"></a>
+                <p class="text-center">清印活肤霜</p>
+            </div>
+            <div class="col-sm-2">
+                <a href="javascript:;"> <img src="images/shop-items (4).png" alt="" class="img-responsive"></a>
+                <p class="text-center">清痘啫喱膏</p>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-sm-2 col-sm-offset-2">
+                <a href="javascript:;"> <img src="images/shop-items (5).png" alt="" class="img-responsive"></a>
+                <p class="text-center">清痘调理液</p>
+            </div>
+            <div class="col-sm-2">
+                <a href="javascript:;"> <img src="images/shop-items (6).png" alt="" class="img-responsive"></a>
+                <p class="text-center">清痘调理液</p>
+            </div>
+        </div>
+    </div>
+
+    </div>
+
+    <!-- 页脚 -->
+    <div class="container-fluid foot">
+        <div class="row">
+            <div class="col-sm-7 ">
+                <img src="images/logo.png" alt="" class="img-responsive">
+            </div>
+            <div class="col-sm-5 foot-mess">
+                <a href="">联系我们</a>
+                <a href="">关于诺丽美</a>
+                <a href="">最新动态</a>
+                <a href="">产品展示</a>
+                <a href="">专业课堂</a>
+                <a href="">粤ICP备号12088417-1</a>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="lib/bootstrap/js/bootstrap.min.js"></script>
+<script src="lib/mCustomScrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
+<script>
+    var h = $(window).height();
+    $('.srcoll').css('height', h);
+    $(".srcoll").mCustomScrollbar({
+        theme: "dark",
+        scrollButtons: {
+            scrollInertia: 1000,
+            mouseWheelPixels: 200,
+
+        }
+    });
+    </script>
+
+</html>

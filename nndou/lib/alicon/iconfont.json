@@ -1,0 +1,30 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "3722144",
+      "name": "钻石",
+      "font_class": "zuanshi",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "7155220",
+      "name": "用户",
+      "font_class": "yonghu",
+      "unicode": "e650",
+      "unicode_decimal": 58960
+    },
+    {
+      "icon_id": "7798366",
+      "name": "奖章",
+      "font_class": "jiangzhang",
+      "unicode": "e634",
+      "unicode_decimal": 58932
+    }
+  ]
+}

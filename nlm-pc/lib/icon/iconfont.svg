@@ -1,0 +1,29 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<!--
+2013-9-30: Created.
+-->
+<svg>
+<metadata>
+Created by iconfont
+</metadata>
+<defs>
+
+<font id="iconfont" horiz-adv-x="1024" >
+  <font-face
+    font-family="iconfont"
+    font-weight="500"
+    font-stretch="normal"
+    units-per-em="1024"
+    ascent="896"
+    descent="-128"
+  />
+    <missing-glyph />
+    
+    <glyph glyph-name="dingwei" unicode="&#58904;" d="M774.826667 530.773333c0-117.76-194.56-392.533333-245.76-464.213333-6.826667-8.533333-18.773333-8.533333-25.6 0C450.56 138.24 256 413.013333 256 530.773333 256 665.6 372.053333 776.533333 515.413333 776.533333s259.413333-110.933333 259.413334-245.76zM208.213333 54.613333a307.2 76.8 0 1 1 614.4 0 307.2 76.8 0 1 1-614.4 0Z"  horiz-adv-x="1024" />
+
+    
+
+
+  </font>
+</defs></svg>
